@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arshad's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Bubbles Background -->
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    
+    <header>
+        <nav>
+            <div class="nav-content">
+                <div class="logo">
+                    <a href="#" id="userName">Portfolio</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="profile-container">
+            <img id="profileImage" src="" alt="Profile Picture" class="profile-image">
+            <div class="hero-content">
+                <h1 id="fullName">Loading...</h1>
+                <p id="bio">Loading...</p>
+                <div class="social-links">
+                    <a href="#" id="githubLink" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" id="twitterLink" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" id="linkedinLink" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p id="aboutText">Loading...</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <h3>Repositories</h3>
+                    <p id="repoCount">0</p>
+                </div>
+                <div class="stat-item">
+                    <h3>Followers</h3>
+                    <p id="followerCount">0</p>
+                </div>
+                <div class="stat-item">
+                    <h3>Following</h3>
+                    <p id="followingCount">0</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div id="projectsContainer" class="projects-grid">
+            <!-- Projects will be dynamically loaded here -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-content">
+            <p id="location"><i class="fas fa-map-marker-alt"></i> Loading...</p>
+            <p id="email"><i class="fas fa-envelope"></i> Loading...</p>
+            <div class="social-links">
+                <a href="#" id="githubLink2" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="#" id="twitterLink2" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="#" id="linkedinLink2" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 <span id="footerName">Portfolio</span>. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
